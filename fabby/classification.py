@@ -22,4 +22,4 @@ y = iris.target
 df = pd.DataFrame(x, column=iris.feature_names)
 print(df.head())
 
-_ = pd.plotting.scatter_matrix(df, c = y, figsize =[8, s = 150, marker = 'D')
+_ = pd.plotting.scatter_matrix(df, c = y, figsize =[8, 8], s=150, marker = 'D') 
